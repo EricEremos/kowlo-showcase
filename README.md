@@ -2,56 +2,59 @@
 
 **Hong Kong, in your colours.**
 
-![KOWLO cover: an illustrative Hong Kong atlas made from folded marks.](assets/portfolio-cover.png)
+Your photographs remember moments. KOWLO connects them to places: a personal Hong Kong atlas coloured by the photos you take, with notes you can revisit and records you can keep.
 
-KOWLO turns the places you photograph into a personal atlas of Hong Kong. Its 18 districts become stations on your own line, with colours drawn from your photographs and places recorded as exits along the way.
+**Built by Hyunjun Kim · Independent product design & AI-assisted development · Started September 2026**
 
-**Independent product project · Product design and AI-assisted development · Hyunjun Kim**
+[See the product journey ↓](#the-product-journey)
 
-## Why I built it
+## The product journey
 
-Photographs can preserve a moment without making it easy to revisit the places around it. KOWLO connects photo location data, colours and notes in a journal that people can keep on their own device and export for reuse.
+<p>
+  <img src="assets/app-atlas-night.jpg" width="240" alt="KOWLO night atlas after importing sample photos, showing eight of Hong Kong's eighteen districts coloured in.">
+  <img src="assets/app-district.jpg" width="240" alt="Yau Tsim Mong district screen with a tile wall and one recorded place, Tsim Sha Tsui.">
+  <img src="assets/app-place.jpg" width="240" alt="Tsim Sha Tsui place record with photo-derived colours, a capture date and an editable journal note.">
+</p>
 
-## My contribution
+*Actual browser-app captures from the September 2026 interface. Eight synthetic sample photos supply the demonstration data; the places, dates and notes are illustrative. These screens show an earlier product version.*
 
-I led product design and AI-assisted development, connecting the atlas concept to geographic data, photo-import workflows and a working local journal. I designed the district and place hierarchy, translated it into user flows, and developed the interaction between photo GPS, district grouping and the visual atlas.
+1. **See your city take shape.** Import photos with GPS data. Their locations and optional colours add detail to your atlas.
+2. **Follow your own line.** Hong Kong's **18 districts** become stations; recorded places become exits. Open a district to find its memories.
+3. **Keep the story behind a place.** Revisit its date, colours and personal note. The local journal supports offline access after initial preparation and record export.
 
-The work also covered on-device photo processing, offline access and export. These features give users a way to revisit and keep their records without making hosted account sync a prerequisite for the journal.
+## What I built and why
 
-## What the project demonstrates
+- **Product direction and navigation:** shaped the photo-to-journal journey and designed the atlas, district and place views in Figma. The station/exit hierarchy gives a growing collection a structure people can browse.
+- **Photo and geographic data workflows:** connected on-device GPS and colour extraction to district grouping and the visual atlas. Preserved original coordinates separately from decorative tiles and nearby-name suggestions, so the interface does not turn a suggestion into a confirmed visit.
+- **A journal people can keep:** developed local storage, note editing, record management and export. Offline access after preparation lets people revisit saved records without a connection; exports give them a reusable copy of their data.
+- **Design through implementation:** used AI-assisted development to turn the product flows into working behaviour, connected Day/Night appearance to the atlas colour system, and compared the real interface with its Figma direction.
 
-| Product decision | Implemented contribution | User benefit |
-| --- | --- | --- |
-| Organize a personal atlas around Hong Kong's 18 districts | District grouping with places nested within each chapter | Revisit a city through a clear structure of districts and individual memories |
-| Use each photograph as location and colour evidence | Process GPS and optional colour information on the device | Add places to the atlas without retaining or uploading the original photo in the documented beta workflow |
-| Let people keep their own records | Local journal, offline behaviour after initial readiness, and export | Revisit records without a connection and save a reusable copy |
-| Make the design inspectable | Product flows, interface examples and implementation evidence | Show how product decisions connect to working behaviour |
+## Engineering behind the experience
 
-## From idea to interface
+The local application uses **JavaScript modules, IndexedDB and an offline web shell**. The project also includes **Swift/Kotlin native wrappers** and a separately tested **PostgreSQL/PostGIS** data foundation.
 
-The core journey connects five steps: import photographs, process location and optional colours on the device, group places into districts, revisit a place and its notes, and export a record or share card. The transit metaphor makes districts and places navigable while the geographic record stays separate from the decorative atlas.
+Retained development checks include:
 
-![Historical design and application comparison: mobile atlas, district and place screens, photo import, record management and a desktop atlas.](assets/interface-evidence.jpg)
+- **684 geographic controls:** browser and PostGIS district classification agreed on the recorded cases; the accompanying migration/database unit passed **209 checks**.
+- **200 generated journal snapshots:** export checks exercised preservation of coordinates, notes, IDs and capture-time states. Browser checks also exercised actual downloads while offline.
 
-This retained comparison shows the September 2026 Day/Night design generation, with Figma frames above actual application captures. The captures use eight synthetic sample photographs and illustrative places, dates and notes. They demonstrate the product journey rather than a user's private travel history or measured adoption. The board documents an earlier interface; it is not a claim that every screen represents the latest paused build.
+These are historical engineering checks, with their scope explained in [the evidence notes](docs/engineering-evidence.md). They measure implementation behaviour, not user adoption or commercial impact.
 
-## Engineering choices
+<details>
+<summary><strong>Explore the visual direction</strong></summary>
 
-- **On-device processing:** derive location and optional colours without retaining or uploading the original photograph in the documented browser beta workflow.
-- **Geographic integrity:** keep original coordinates and district grouping separate from decorative tiles and suggested place names.
-- **Local access and export:** retain a usable journal on the device, support offline access after initial readiness, and let the user keep a reusable copy.
-- **Design linked to implementation:** translate the district-to-place hierarchy into import, navigation, notes and record-management flows, then inspect the interface against its design direction.
+![Illustrative KOWLO concept cover: Hong Kong drawn as a personal memory print.](assets/portfolio-cover.png)
 
-## Project status
+The cover expresses the original memory-print concept. [View the retained Figma/application comparison](assets/interface-evidence.jpg) for the September Day/Night direction, including import and record-management states.
 
-Development and maintenance are paused as of 12 October 2026. The project includes a historical public beta and retained design and implementation evidence. Hosted private sync remains unfinished; individual verification records apply to the versions and behaviours they checked.
+</details>
 
-This is a product and engineering portfolio project. User adoption, retention and commercial impact have not been measured.
+## Current status
 
-This public repository contains a curated case study and presentation assets. The application source and detailed development history remain in a separate private repository. The retained evidence does not establish physical-device acceptance or completed hosted sync.
+Development and maintenance paused on **12 October 2026**. The project has a historical browser beta and retained local implementation evidence. Hosted private sync remains unfinished, and physical-device acceptance is not established. Adoption and retention have not been measured.
 
-[Asset credits and reuse terms](CREDITS.md)
+This public repository presents the product and my contribution. Application source and development history are kept in a separate private repository.
 
 ---
 
-Hyunjun Kim · [GitHub](https://github.com/EricEremos) · [LinkedIn](https://linkedin.com/in/ericmos)
+**Hyunjun Kim** · [LinkedIn](https://linkedin.com/in/ericmos) · [GitHub](https://github.com/EricEremos) · [Credits & reuse terms](CREDITS.md)

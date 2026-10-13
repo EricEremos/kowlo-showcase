@@ -1,11 +1,12 @@
 # Credits and presentation scope
 
-KOWLO is an independent product project by Hyunjun Kim. This repository publishes a curated case study, an illustrative cover and a retained design/application comparison. It contains no private journal records or application source history.
+KOWLO is an independent product project by Hyunjun Kim. This repository publishes a curated case study, actual application captures with synthetic demonstration data, an illustrative cover and a retained design/application comparison. It contains no private journal records or application source history.
 
 ## Published images
 
 - `assets/portfolio-cover.png`: retained editorial cover with illustrative Hong Kong atlas artwork. It is a product concept composition, not a verified travel record.
 - `assets/interface-evidence.jpg`: retained September 2026 Figma/application comparison. Application captures use eight synthetic sample photographs; the design contains illustrative places, dates, notes and totals. The board represents an earlier interface generation.
+- `assets/app-atlas-night.jpg`, `assets/app-district.jpg` and `assets/app-place.jpg`: unchanged actual browser-app captures from the September 2026 Day/Night conformance set. Their original capture names are `s1-home-night.jpg`, `s4-station.jpg` and `s5-exit.jpg`. Eight synthetic sample photos supply the demonstration data; places, dates, notes and counts are illustrative. These are historical interface captures, not the latest paused build or a real person's travel history.
 
 ## Geographic data
 
