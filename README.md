@@ -16,7 +16,7 @@ Hong Kong's places, landmarks and city details become a collection. Illustrated 
   <img src="assets/card-lantau-20261022.png" width="390" alt="Current KOWLO collectible-card design: Lantau Island, with illustrated temple artwork, its bilingual name and island category." />
 </p>
 
-*Development interface, captured 22 October 2026. One example from the ten-family card design system.*
+*Approved collectible-card design preview · 22 October 2026. One example from the ten-family card design system.*
 
 ### A walk with room to come back.
 
@@ -31,7 +31,7 @@ Choose where to start, then choose how much time you have. KOWLO suggests a dest
 | :--- | :--- | :--- |
 | Begin from a saved place, your current location or the map. | Review an estimated return trip before choosing the walk. | Maps checks the walking route when you start. |
 
-*Application captures from the 22 October development review, using sample places and timing. Map tiles are disabled in this test setup. Walking times are estimates; Maps checks the route when a walk begins.*
+*Approved Walk design previews · 22 October 2026, using sample places and timing. These previews show the intended interface; they are not a demonstration of released functionality. Map tiles are disabled. Walking times are estimates; the interface indicates that Maps checks the route when a walk begins.*
 
 ### Why I am making it.
 
