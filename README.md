@@ -6,6 +6,14 @@ A personal atlas of the places you remember. Keep a photograph with its place, d
 
 **Keep a place. Discover a card. Take a walk.**
 
+<p align="center">
+  <a href="assets/kowlo-walk-campaign-20261022.png"><img src="assets/kowlo-walk-campaign-20261022.png" width="100%" alt="Two KOWLO campaign cards: A walk that fits your time, showing the return-trip budget, and Start somewhere familiar, showing saved places in the starting-point picker. Both use original, unaltered interface captures." /></a>
+</p>
+
+*Approved design previews · 22 October 2026. Original interface captures, with sample places and timing. In development.*
+
+[Explore the time-budget screen](assets/walk-budget-20261022.png) · [Explore the starting-point picker](assets/walk-start-20261022.png)
+
 Created by **Eric (Hyunjun Kim)** · Product direction, design, AI-assisted engineering and release preparation
 
 ### A collection with a sense of place.
@@ -21,11 +29,6 @@ Hong Kong's places, landmarks and city details become a collection. Illustrated 
 ### A walk with room to come back.
 
 Choose where to start, then choose how much time you have. KOWLO suggests a destination within a **whole-walk budget: there and back**. Your saved places appear first in the starting-point picker; other places follow alphabetically. The interface also offers starting from your current location or a point on the map.
-
-<p align="center">
-  <img src="assets/walk-start-20261022.png" width="42%" alt="KOWLO's current Start from sheet: regional tabs, current location, map search and saved places before the alphabetical list." />
-  <img src="assets/walk-budget-20261022.png" width="42%" alt="KOWLO's current walking preview: Sheung Wan to Sai Ying Pun, estimated 35 minutes there and back, with a 45-minute time budget selected." />
-</p>
 
 | Start somewhere that matters | Know what the time means | Continue with Maps |
 | :--- | :--- | :--- |
