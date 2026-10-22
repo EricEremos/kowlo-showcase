@@ -2,61 +2,68 @@
 
 ## Hong Kong, in your colours.
 
-A personal atlas of the places you remember. Keep a photograph with its place, watch your Hong Kong take shape, and find a reason to go outside again.
+A personal atlas of the places you remember. Keep a photograph with its place, discover the city's character through collectible cards, and find a walk that leaves time to come back.
 
-**Keep a place. Follow a memory. Take a walk.**
+**Keep a place. Discover a card. Take a walk.**
 
-Built by **Eric (Hyunjun Kim)** · Independent product design and AI-assisted development
+Created by **Eric (Hyunjun Kim)** · Product direction, design, AI-assisted engineering and release preparation
 
-<p>
-  <img src="assets/app-atlas-night.jpg" width="30%" alt="KOWLO's night atlas, with photographs collected around Hong Kong" />
-  <img src="assets/app-district.jpg" width="30%" alt="A district view in KOWLO" />
-  <img src="assets/app-place.jpg" width="30%" alt="A saved place and its photograph in KOWLO" />
+### A collection with a sense of place.
+
+Hong Kong's places, landmarks and city details become a collection. Illustrated fronts, a paper name panel and a consistent information band give each card its own identity within the same system.
+
+<p align="center">
+  <img src="assets/card-lantau-20261022.png" width="390" alt="Current KOWLO collectible-card design: Lantau Island, with illustrated temple artwork, its bilingual name and island category." />
 </p>
 
-*Actual September 2026 browser-app captures using eight synthetic sample photographs. Places, dates and notes are illustrative. These show an earlier version of the atlas, rather than the current development interface.*
-
-### Your city becomes a collection of places that mean something.
-
-A street you return to. A colour you noticed on the way home. A small corner that would otherwise disappear into your camera roll. KOWLO brings photographs, places and notes together so you can return to the memory as well as the location.
-
-| Keep | Explore | Return |
-| :--- | :--- | :--- |
-| Save a photograph with a place and a note. | See your collection across Hong Kong's districts. | Open a place again, or make it the start of a walk. |
+*Development interface, captured 22 October 2026. One example from the ten-family card design system.*
 
 ### A walk with room to come back.
 
-The current development version adds a personal walking flow: choose a starting point, set the time you have and explore nearby places. The time represents the **whole walk there and back**. A destination is suggested with room for the return journey.
+Choose where to start, then choose how much time you have. KOWLO suggests a destination within a **whole-walk budget: there and back**. Your saved places appear first in the starting-point picker; other places follow alphabetically. The interface also offers starting from your current location or a point on the map.
 
-<p>
-  <img src="assets/walk-light.png" width="100%" alt="An October development capture of KOWLO's walking interface, with a starting place and nearby destinations" />
+<p align="center">
+  <img src="assets/walk-start-20261022.png" width="42%" alt="KOWLO's current Start from sheet: regional tabs, current location, map search and saved places before the alphabetical list." />
+  <img src="assets/walk-budget-20261022.png" width="42%" alt="KOWLO's current walking preview: Sheung Wan to Sai Ying Pun, estimated 35 minutes there and back, with a 45-minute time budget selected." />
 </p>
 
-*Actual October development capture, taken before release 142. The current release has further changes to walking-time guidance, loading and presentation. The screenshot is retained as visual evidence of the product in development, rather than presented as an exact capture of release 142.*
+| Start somewhere that matters | Know what the time means | Continue with Maps |
+| :--- | :--- | :--- |
+| Begin from a saved place, your current location or the map. | Review an estimated return trip before choosing the walk. | Maps checks the walking route when you start. |
 
-### Designed around Hong Kong, built around personal memory.
+*Application captures from the 22 October development review, using sample places and timing. Map tiles are disabled in this test setup. Walking times are estimates; Maps checks the route when a walk begins.*
 
-The district structure, station-inspired lettering, day and night palettes, and photo colours give the atlas its character. The product work runs from navigation and interface design through location handling, local storage and the details that make a place feel worth keeping.
+### Why I am making it.
 
-My work includes product direction, interface and interaction design, implementation, testing and release preparation. AI assists the work; I set the direction, review what is built and decide what needs to change.
+A street you return to. A colour you notice on the way home. A small corner that would otherwise disappear into your camera roll. KOWLO brings photographs, places and notes together so you can return to the memory as well as the location. Walking and collecting give you another reason to look at the city.
+
+The district structure, bilingual place names, day and night palettes and illustrated cards all serve that idea. The work reaches beyond the screens into location handling, local storage, offline behaviour and the checks needed before a release.
+
+### From the first question to the finished detail.
+
+KOWLO is my independent product project. I shape the brief, design the experience, build and test the implementation, and prepare its releases and public presentation. AI supports that full cycle: I use **ChatGPT for research, planning and building**, and **Claude for design refinement and finishing**. I review the work against the product's purpose and decide what changes next.
 
 ### Current status
 
-**In active development · release-142 handoff dated 22 October 2026.** Recent work refines the introduction, photo-pin contrast, place-name presentation, return-walk guidance and map-loading behaviour. The release handoff records a passing release gate and deployment; that is the project's recorded result, rather than a new independent test performed for this showcase.
-
-KOWLO is a working product under development. A public App Store release, adoption figures and complete acceptance across physical devices are not claimed here. Implementation remains private.
+**In development · design preview: 22 October 2026.** These screens show the newer approved Walk and collectible-card work. A public download will be linked here when available; implementation and personal records remain private.
 
 <details>
-<summary><strong>Engineering notes and earlier evidence</strong></summary>
+<summary><strong>Engineering notes and earlier product evidence</strong></summary>
 
-The implementation combines a modular web interface, IndexedDB-backed local data, offline behaviour and native-wrapper work. Geographic and data checks support the atlas; they do not establish public adoption or replace device testing.
+The implementation combines a modular web interface, IndexedDB-backed local data, offline behaviour and native-wrapper work. Geographic and data checks support the atlas; they do not replace navigation or physical-device testing.
 
 [Read the retained engineering evidence](docs/engineering-evidence.md) for the scope of earlier geographic, database and journal-export checks.
 
-Earlier design and engineering evidence is retained in this repository:
+Earlier product generations remain available for context:
 
+- [September photo-atlas interface](assets/app-atlas-night.jpg)
+- [Earlier district view](assets/app-district.jpg)
+- [Earlier saved-place view](assets/app-place.jpg)
+- [Earlier walking interface](assets/walk-light.png)
 - [Original portfolio cover](assets/portfolio-cover.png)
-- [Interface evidence](assets/interface-evidence.jpg)
+- [Earlier design/application comparison](assets/interface-evidence.jpg)
+
+These are historical references, not the current interface.
 
 </details>
 
