@@ -1,75 +1,68 @@
-# KOWLO
+<p align="center"><strong>KOWLO</strong></p>
 
-## Your photos. Your Hong Kong.
+<h1 align="center">Your photos.<br>Your Hong Kong.</h1>
 
-A personal photo atlas for the city you know—and the corners you are still discovering. Keep photographs with their places, see your Hong Kong take shape, and collect the details that make it yours.
+<p align="center">A personal photo atlas for the places that stay with you.</p>
 
-### Your photographs give the map its colour.
-
-An overview of your places, shaped by the photographs you keep. Move between the map, your line through the city, walks and your collection.
+<p align="center"><a href="#your-city-in-your-photographs">Explore the atlas</a> · <a href="#why-i-am-making-it">The idea behind KOWLO</a> · <a href="#development-status">Development status</a></p>
 
 <p align="center">
-  <a href="assets/photo-atlas-release144-20261023.png"><img src="assets/kowlo-figma-01-final-20261023.png" width="430" alt="Your photos. Your Hong Kong. The original KOWLO release-144 photo atlas, framed by cream typography and dark brown campaign artwork." /></a>
+  <a href="assets/photo-atlas-release144-20261023.png"><img src="assets/kowlo-figma-01-final-20261023.png" width="430" alt="Your photos. Your Hong Kong. KOWLO's original photo-atlas screen places photographs on a Hong Kong map, inside a dark brown and cream campaign card." /></a>
 </p>
 
-*Actual development capture · release-144 audit, 23 October 2026. Sample places and photographs; not a personal travel record.*
+<p align="center"><sub>Actual development interface · release-144 audit, 23 October 2026 · Sample photographs and places. Select a campaign card to see its original screen.</sub></p>
 
-### See the places you keep returning to.
+## Your city, in your photographs
 
-Open **Your Hong Kong** for a view of your photographs and districts. The place list gives familiar corners a place in the bigger picture.
+A corner you noticed on the way home. A familiar street in a different light. KOWLO keeps the photograph with the place, so the city becomes more than a collection of pins—and the memory is easier to return to than a picture lost in your camera roll.
+
+### Put the photograph back in its place.
+
+See your photographs across the map, then move between the atlas, your line through the city, walks and your collection. The places you keep give the map its character.
+
+### See your Hong Kong take shape.
+
+Open **Your Hong Kong** to bring your photographs, districts and place list into one view. Then turn to **Cards**, where illustrated stations, landmarks, hidden places and islands give the city's details a collection of their own.
 
 <p align="center">
-  <a href="assets/your-hong-kong-release144-20261023.png"><img src="assets/kowlo-figma-02-final-20261023.png" width="430" alt="See your city take shape. The original Your Hong Kong screen shows a photograph and district summary above a place list." /></a>
+  <a href="assets/your-hong-kong-release144-20261023.png"><img src="assets/kowlo-figma-02-final-20261023.png" width="300" alt="Your places. All in view. The original Your Hong Kong screen brings together a photograph and district summary with a place list." /></a>
+  <a href="assets/collection-release144-20261023.png"><img src="assets/kowlo-figma-03-final-20261023.png" width="300" alt="Keep a little of every place. KOWLO's original Cards screen shows an illustrated Yau Tsim Mong card and four collection categories." /></a>
 </p>
 
-*Actual development capture · release-144 audit, 23 October 2026. The photographs, dates and totals belong to a demonstration fixture; they are not usage or customer statistics.*
+<p align="center"><sub>The photographs, dates, totals and collection progress above are demonstration data.</sub></p>
 
-### A collection with a sense of place.
+### Leave room for the way back.
 
-Stations, landmarks, hidden places and islands become a collection. Illustrated cards and bilingual place names give Hong Kong's everyday details room to be noticed.
+The approved **Walk** design starts with a place and a time budget. Choose a saved place, your current location or a point on the map, then review an estimated whole-walk budget that includes the return trip.
 
-<p align="center">
-  <a href="assets/collection-release144-20261023.png"><img src="assets/kowlo-figma-03-final-20261023.png" width="430" alt="Keep the places you remember. The original KOWLO Cards screen shows an illustrated Yau Tsim Mong card and four collection categories." /></a>
-</p>
+[Explore the Walk design](assets/kowlo-walk-campaign-20261022.png) · [Time-budget screen](assets/walk-budget-20261022.png) · [Starting-point picker](assets/walk-start-20261022.png)
 
-*Actual development capture · release-144 audit, 23 October 2026. Collection progress is sample data. Campaign lettering and supporting artwork sit outside the three original, unretouched interfaces. Select a card to inspect its original screenshot.*
+*Design previews, 22 October 2026, with sample places and timing and background map tiles disabled. These show the intended experience, rather than a verified walking route.*
 
-### A walk with room to come back.
+## Why I am making it
 
-Choose a starting point and a time budget. The approved Walk design makes the **return trip** part of the decision, with saved places close at hand.
+Hong Kong is easy to move through quickly. I wanted a reason to notice it: the colour of a street, a station sign, a small place worth remembering. KOWLO brings photographs, places and notes together around that idea. Walking and collecting give you another reason to look again.
 
-**Start somewhere familiar.** Choose a saved place, your current location or a point on the map.
+That purpose shapes the details: bilingual place names, district structure, day and night palettes, illustrated cards, and the less visible work of location handling, local storage and offline behaviour.
 
-**Know what the time means.** Review the estimated whole-walk budget before choosing a destination.
+## My work
 
-[View the Walk design](assets/kowlo-walk-campaign-20261022.png) · [Time-budget screen](assets/walk-budget-20261022.png) · [Starting-point picker](assets/walk-start-20261022.png)
+**An independent product by Eric (Hyunjun Kim).** I carry KOWLO from research and product direction through interface design, AI-assisted engineering, testing, release preparation and its public presentation. The same question guides each stage: does this help someone notice and keep something of their city?
 
-*Approved design previews · 22 October 2026. These use sample places and timing, with background map tiles disabled. They show the intended interface, not a verified walking route or public release.*
+## Development status
 
-### Why I am making it.
-
-A street you return to. A colour you notice on the way home. A small corner that would otherwise disappear into your camera roll. KOWLO brings photographs, places and notes together so you can return to the memory as well as the location. Walking and collecting give you another reason to look at the city.
-
-The district structure, bilingual place names, day and night palettes and illustrated cards all serve that idea. The work reaches beyond the screens into location handling, local storage, offline behaviour and the checks needed before a release.
-
-### From the first question to the finished detail.
-
-Created by **Eric (Hyunjun Kim)** · Product direction, design, AI-assisted engineering and release preparation.
-
-KOWLO is my independent product project. I shape the brief, design the experience, build and test the implementation, and prepare its releases and public presentation. AI supports that full cycle: I use **ChatGPT for research, planning and building**, and **Claude for design refinement and finishing**. I review the work against the product's purpose and decide what changes next.
-
-### Current status
-
-**In development · current product evidence: release-144 audit, 23 October 2026.** This page now leads with the photo atlas, personal summary and collection from that audit. A public download will be linked here when available; implementation and personal records remain private.
+**In development.** The atlas, personal summary and collection shown here come from the release-144 audit on **23 October 2026**. A public download will be linked here when available.
 
 <details>
-<summary><strong>Engineering notes and earlier product evidence</strong></summary>
+<summary><strong>Capture details, engineering notes and earlier versions</strong></summary>
 
-The implementation combines a modular web interface, IndexedDB-backed local data, offline behaviour and native-wrapper work. Geographic and data checks support the atlas; they do not replace navigation or physical-device testing.
+The three campaign cards use original, unretouched application interfaces. Supporting artwork and lettering sit outside the screens. Their photographs, dates and totals belong to a demonstration fixture, not a personal travel record or customer statistics. The Walk images are separately labelled approved designs.
+
+The implementation combines a modular web interface, IndexedDB-backed local data, offline behaviour and native-wrapper work. Geographic and data checks support the atlas; they do not replace navigation or physical-device testing. Implementation and personal records remain private.
 
 [Read the retained engineering evidence](docs/engineering-evidence.md) for the scope of earlier geographic, database and journal-export checks.
 
-Earlier product generations and design reviews remain available for context:
+Earlier product generations remain available for context:
 
 - [22 October illustrated island-card design](assets/card-lantau-20261022.png)
 - [September photo-atlas interface](assets/app-atlas-night.jpg)
@@ -85,4 +78,4 @@ These are historical references, not the current interface.
 
 ---
 
-[More of my work](https://github.com/EricEremos) · [LinkedIn](https://www.linkedin.com/in/ericmos/) · [Credits and reuse](CREDITS.md)
+[Explore more of my work](https://github.com/EricEremos) · [LinkedIn](https://www.linkedin.com/in/ericmos/) · [Credits and reuse](CREDITS.md)
