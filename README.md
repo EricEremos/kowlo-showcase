@@ -9,7 +9,7 @@ A personal photo atlas for the city you know—and the corners you are still dis
 An overview of your places, shaped by the photographs you keep. Move between the map, your line through the city, walks and your collection.
 
 <p align="center">
-  <a href="assets/photo-atlas-release144-20261023.png"><img src="assets/photo-atlas-release144-20261023.png" width="390" alt="KOWLO release-144 photo atlas in its dark brown palette: coloured place markers across Hong Kong and navigation for Map, Line, Walk and Cards." /></a>
+  <a href="assets/photo-atlas-release144-20261023.png"><img src="assets/kowlo-store-01-photo-atlas-20261023.png" width="430" alt="Your photos. Your Hong Kong. The original KOWLO release-144 photo atlas, framed by cream typography and dark brown campaign artwork." /></a>
 </p>
 
 *Actual development capture · release-144 audit, 23 October 2026. Sample places and photographs; not a personal travel record.*
@@ -19,7 +19,7 @@ An overview of your places, shaped by the photographs you keep. Move between the
 Open **Your Hong Kong** for a view of your photographs and districts. The place list gives familiar corners a place in the bigger picture.
 
 <p align="center">
-  <a href="assets/your-hong-kong-release144-20261023.png"><img src="assets/your-hong-kong-release144-20261023.png" width="390" alt="The Your Hong Kong summary over the atlas, with a photograph and district summary and a list of places including Fui Yiu Ha, Tsuen Wan and Mong Kok." /></a>
+  <a href="assets/your-hong-kong-release144-20261023.png"><img src="assets/kowlo-store-02-your-hong-kong-20261023.png" width="430" alt="See your city take shape. The original Your Hong Kong screen shows a photograph and district summary above a place list." /></a>
 </p>
 
 *Actual development capture · release-144 audit, 23 October 2026. The photographs, dates and totals belong to a demonstration fixture; they are not usage or customer statistics.*
@@ -29,10 +29,10 @@ Open **Your Hong Kong** for a view of your photographs and districts. The place 
 Stations, landmarks, hidden places and islands become a collection. Illustrated cards and bilingual place names give Hong Kong's everyday details room to be noticed.
 
 <p align="center">
-  <a href="assets/collection-release144-20261023.png"><img src="assets/collection-release144-20261023.png" width="390" alt="KOWLO's Cards screen with an illustrated Yau Tsim Mong card and collection categories for Stations, Landmarks, Hidden places and Islands." /></a>
+  <a href="assets/collection-release144-20261023.png"><img src="assets/kowlo-store-03-collection-20261023.png" width="430" alt="Keep the places you remember. The original KOWLO Cards screen shows an illustrated Yau Tsim Mong card and four collection categories." /></a>
 </p>
 
-*Actual development capture · release-144 audit, 23 October 2026. Collection progress is sample data. All three interface captures above are published without retouching.*
+*Actual development capture · release-144 audit, 23 October 2026. Collection progress is sample data. Campaign lettering and supporting artwork sit outside the three original, unretouched interfaces. Select a card to inspect its original screenshot.*
 
 ### A walk with room to come back.
 
