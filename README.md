@@ -6,9 +6,9 @@
 
 <p align="center"><a href="#your-city-in-your-photographs">Explore the atlas</a> · <a href="#why-i-am-making-it">The idea behind KOWLO</a> · <a href="#development-status">Development status</a></p>
 
-<p align="center"><a href="assets/kowlo-promo-20261024.mp4"><img src="assets/kowlo-promo-20261024.gif" alt="KOWLO film: a Hong Kong dot map fills with district colours, the app's station page and collection cards follow, and the kowlo wordmark forms from the dots." width="100%"></a></p>
+<p align="center"><a href="assets/kowlo-promo-20261024.mp4"><img src="assets/kowlo-promo-20261024.gif" alt="KOWLO film: a flyover of a Hong Kong tile map with titles set like map lettering. Photos drop into their districts, the city turns to night, the phone shows a station and a note, the cards are collected, and it ends on the tile wordmark: The moments you kept." width="100%"></a></p>
 
-<p align="center"><sub>In development; no public download yet. The film uses release-147 development screens with sample places, captured on 23 October 2026. The floating photographs are illustrative. The loop shows the last 15 seconds; the MP4 has the full 36-second film.</sub><br><a href="assets/kowlo-promo-20261024.mp4">Watch the full film</a> · <a href="assets/kowlo-promo-20261024-poster.png">Still frame</a> · <a href="assets/kowlo-promo-20261024-manifest.json">Capture details</a></p>
+<p align="center"><sub>In development. Animated product screenshots from release 147 (23 Oct 2026); the district photos are generated campaign images, not a person's photos, and the map is drawn from the app's own land data. The loop shows the last 15 seconds; the MP4 has the full 36-second film.</sub><br><a href="assets/kowlo-promo-20261024.mp4">Watch the full film</a> · <a href="assets/kowlo-promo-20261024-poster.png">Still frame</a> · <a href="assets/kowlo-promo-20261024-manifest.json">Capture details</a></p>
 
 ## Your city, in your photographs
 
