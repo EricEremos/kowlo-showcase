@@ -1,0 +1,129 @@
+{
+ "product": "kowlo",
+ "edition": "2026-10-24 (latest film)",
+ "film": {
+  "duration_seconds": 36.0,
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "audio": "silent",
+  "readme_loop": "the last 15 seconds of the film"
+ },
+ "production": {
+  "visual_author": "Claude, HyperFrames (HTML and GSAP rendered in Chrome)",
+  "principle": "Original product interface pixels are scaled, cropped and moved; campaign type and motion sit around them. No on-screen provenance labels; qualifications live here and beside the film."
+ },
+ "qualification": "In development; no public download yet. The film uses release-147 development screens with sample places, captured on 23 October 2026. The floating photographs are illustrative. The loop shows the last 15 seconds; the MP4 has the full 36-second film.",
+ "sources": {
+  "s02": {
+   "source": "KOWLO origin/main 85a88b7 (release 147), scripts/audit-screens.mjs run by Claude 2026-10-23 with AUDIT_TIME=2026-10-13T04:00:00Z; k147-light/02-empty-map.png",
+   "sha256": "28ce644e1534ce8c7c42226ca96ccea9113a2b97c12fa3e0a9777deaf591e9e6",
+   "note": "exact 2x2 box reduction"
+  },
+  "s04": {
+   "source": "KOWLO origin/main 85a88b7 (release 147), scripts/audit-screens.mjs run by Claude 2026-10-23 with AUDIT_TIME=2026-10-13T04:00:00Z; k147-light/04-map.png",
+   "sha256": "529bbe1c208d76ff63c98eec5e4b53971344a928d61200004f16ef922d4062d4",
+   "note": "exact 2x2 box reduction"
+  },
+  "s19": {
+   "source": "/Volumes/EremosArch/Mac-AI-Work/Documents/ChatGPT/Hong Kong Foot Tracking/.omo/evidence/kowlo-release-144-claude-20261023/audit-light-2/19-card-sheet.png",
+   "sha256": "41a80f93ccc147d55977e41f43f37a56576b34e29ab586640637d70d749610c2",
+   "note": "exact 2x2 box reduction"
+  },
+  "c-island": {
+   "source": "/Volumes/EremosArch/Mac-AI-Work/Documents/ChatGPT/Hong Kong Foot Tracking/.omo/evidence/kowlo-direction-a-cards-20261022/light-04-island-front.png",
+   "sha256": "9797a6d82580f98ac2cb14cf91d1b60c374ca337732e7d14faa983794c85c87b",
+   "size": [
+    390,
+    567
+   ]
+  },
+  "c-station": {
+   "source": "/Volumes/EremosArch/Mac-AI-Work/Documents/ChatGPT/Hong Kong Foot Tracking/.omo/evidence/kowlo-direction-a-cards-20261022/light-01-station-front.png",
+   "sha256": "69cff77b73761dc10ebd6a9348daa207818d0fa914406e7d499045aff3604e82",
+   "size": [
+    390,
+    567
+   ]
+  },
+  "c-landmark": {
+   "source": "/Volumes/EremosArch/Mac-AI-Work/Documents/ChatGPT/Hong Kong Foot Tracking/.omo/evidence/kowlo-direction-a-cards-20261022/light-02-landmark-front.png",
+   "sha256": "67503b845e3b30ae72afb6dcb23e117616689f1b50ee77b67c185ff9c837d84b",
+   "size": [
+    390,
+    567
+   ]
+  },
+  "c-hidden": {
+   "source": "/Volumes/EremosArch/Mac-AI-Work/Documents/ChatGPT/Hong Kong Foot Tracking/.omo/evidence/kowlo-direction-a-cards-20261022/light-03-hidden-front.png",
+   "sha256": "fafa17d93939c14d212a1f370df40a0c861e900d8a6530fa664762d1442a7441",
+   "size": [
+    390,
+    567
+   ]
+  },
+  "c-festival": {
+   "source": "/Volumes/EremosArch/Mac-AI-Work/Documents/ChatGPT/Hong Kong Foot Tracking/.omo/evidence/kowlo-direction-a-cards-20261022/light-07-festival-front.png",
+   "sha256": "93cc226b7c1bb470c0ee882f897c8071866b860128f03f5f7874687a62b805ab",
+   "size": [
+    390,
+    567
+   ]
+  },
+  "c-hour": {
+   "source": "/Volumes/EremosArch/Mac-AI-Work/Documents/ChatGPT/Hong Kong Foot Tracking/.omo/evidence/kowlo-direction-a-cards-20261022/light-06-hour-front.png",
+   "sha256": "2b8a09b8f74dea38778ef8ccca627a2fcadb3482b44902f304b5d8526259beab",
+   "size": [
+    390,
+    567
+   ]
+  },
+  "s09": {
+   "source": "KOWLO origin/main 85a88b7 (release 147), scripts/audit-screens.mjs run by Claude 2026-10-23 with AUDIT_TIME=2026-10-13T04:00:00Z; k147-light/09-summary.png",
+   "sha256": "093a97fc0e0e91fe61e4bbfe8b62709bd7def088d4a3b1a7e2a31be7996d94e2",
+   "note": "exact 2x2 box reduction"
+  },
+  "s10": {
+   "source": "KOWLO origin/main 85a88b7 (release 147), scripts/audit-screens.mjs run by Claude 2026-10-23 with AUDIT_TIME=2026-10-13T04:00:00Z; k147-light/10-your-line.png",
+   "sha256": "051e0bba9726372e4937adc22076b0b767f32ab71acf85428a70b2ecafe6aeeb",
+   "note": "exact 2x2 box reduction"
+  },
+  "s12": {
+   "source": "KOWLO origin/main 85a88b7 (release 147), scripts/audit-screens.mjs run by Claude 2026-10-23 with AUDIT_TIME=2026-10-13T04:00:00Z; k147-light/12-station.png",
+   "sha256": "33a02ace394c6062c9e63a3d93012ac9da42e95f22e4b109b5ca7b076a89ccd9",
+   "note": "exact 2x2 box reduction"
+  },
+  "s14": {
+   "source": "KOWLO origin/main 85a88b7 (release 147), scripts/audit-screens.mjs run by Claude 2026-10-23 with AUDIT_TIME=2026-10-13T04:00:00Z; k147-light/14-place.png",
+   "sha256": "76bb6807b30855f5e82bfcaa68f0b0075d7980df0cf054d57510a60c2231d05e",
+   "note": "exact 2x2 box reduction"
+  },
+  "s17": {
+   "source": "KOWLO origin/main 85a88b7 (release 147), scripts/audit-screens.mjs run by Claude 2026-10-23 with AUDIT_TIME=2026-10-13T04:00:00Z; k147-light/17-cards.png",
+   "sha256": "8d058ed981af9d75b11835b24098522430e8fb252ae690884af0dd27b9358055",
+   "note": "exact 2x2 box reduction"
+  },
+  "d04": {
+   "source": "KOWLO origin/main 85a88b7 (release 147), scripts/audit-screens.mjs run by Claude 2026-10-23 with AUDIT_TIME=2026-10-13T04:00:00Z; k147-dark/04-map.png",
+   "sha256": "2d58983c8cfc1581faffe8fbd35bd2f458e53b97b024808887e4cf52c1869ba4",
+   "note": "exact 2x2 box reduction"
+  }
+ },
+ "files": {
+  "mp4": {
+   "path": "assets/kowlo-promo-20261024.mp4",
+   "bytes": 6273014,
+   "sha256": "a12515c1df7b7428429b9605ca74c9db15ed60a4c2c7fdc4ba8677c1630d9986"
+  },
+  "gif": {
+   "path": "assets/kowlo-promo-20261024.gif",
+   "bytes": 5325084,
+   "sha256": "205fa178de74a3fe192a5d9bc66e3e48b0f557208212d09ecbd19a40f2b915f0"
+  },
+  "poster": {
+   "path": "assets/kowlo-promo-20261024-poster.png",
+   "bytes": 2047970,
+   "sha256": "e3036255ed1a44130c3e78be0a4d147d3209ced32bb6f5a9331abf02c71bdc19"
+  }
+ }
+}

@@ -12,6 +12,14 @@
 
 <p align="center"><sub>Actual development interface · release-144 audit, 23 October 2026 · Sample photographs and places. Select a campaign card to see its original screen.</sub></p>
 
+## Watch the product film
+
+<p align="center"><a href="assets/kowlo-promo-20261024.mp4"><img src="assets/kowlo-promo-20261024.gif" alt="KOWLO film: a Hong Kong dot map fills with district colours, the app's station page and collection cards follow, and the kowlo wordmark forms from the dots." width="100%"></a></p>
+
+[Watch the full film (MP4)](assets/kowlo-promo-20261024.mp4) · [Open the still frame](assets/kowlo-promo-20261024-poster.png) · [Capture and production details](assets/kowlo-promo-20261024-manifest.json)
+
+In development; no public download yet. The film uses release-147 development screens with sample places, captured on 23 October 2026. The floating photographs are illustrative. The loop shows the last 15 seconds; the MP4 has the full 36-second film.
+
 ## Your city, in your photographs
 
 A corner you noticed on the way home. A familiar street in a different light. KOWLO keeps the photograph with the place, so the city becomes more than a collection of pins—and the memory is easier to return to than a picture lost in your camera roll.
