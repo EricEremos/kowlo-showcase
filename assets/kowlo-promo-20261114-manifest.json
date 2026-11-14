@@ -1,0 +1,32 @@
+{
+ "edition": "2026-11-14 film, built from the product's newest real screens",
+ "film": {
+  "duration_seconds": 30.6,
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "audio": "silent",
+  "readme_loop": "9.0-30.6 s of the film",
+  "mp4": "review encode of the master (H.264 CRF 24, faststart)"
+ },
+ "qualification": "Release 191 (KOWLO 2.0, 10 Nov 2026), run locally with nothing uploaded. The opening is the app's own first-launch opening, recorded; the phone screens are the app's real screens after adding the project's eight synthetic sample photographs. The night stop uses the app's Look set to Dark.",
+ "note": "",
+ "master_sha256": "b2993239693f379927e26a70e78b2a6b2b02867b88ff7990de63d2b5b7df01bf",
+ "files": {
+  "mp4": {
+   "path": "assets/kowlo-promo-20261114.mp4",
+   "bytes": 2690585,
+   "sha256": "5829263528448f47baa73b2e3b293df5f899fce18217f800633775e0a5264263"
+  },
+  "gif": {
+   "path": "assets/kowlo-promo-20261114.gif",
+   "bytes": 4050451,
+   "sha256": "0910d0231e58141a0f9d40830a97bfce1e2ecf7175f0bfde7ef5bc6650e9efca"
+  },
+  "poster": {
+   "path": "assets/kowlo-promo-20261114-poster.png",
+   "bytes": 869220,
+   "sha256": "15bcd1296c977edf98478a0f2169f71629e2e87887440d2c8e0084836be7b46e"
+  }
+ }
+}

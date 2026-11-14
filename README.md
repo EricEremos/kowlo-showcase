@@ -6,19 +6,21 @@
 
 <p align="center"><a href="#your-city-in-your-photographs">Explore the atlas</a> · <a href="#why-i-am-making-it">The idea behind KOWLO</a> · <a href="#development-status">Development status</a></p>
 
-<p align="center"><a href="assets/kowlo-promo-20261024.mp4"><img src="assets/kowlo-promo-20261024.gif" alt="KOWLO film: a flyover of a Hong Kong tile map with titles set like map lettering. Photos drop into their districts, the city turns to night, the phone shows a station and a note, the cards are collected, and it ends on the tile wordmark: The moments you kept." width="100%"></a></p>
+<p align="center"><a href="assets/kowlo-promo-20261114.mp4"><img src="assets/kowlo-promo-20261114.gif" alt="KOWLO film: a station sign names each stop as the film rides one line past the app's real phone screens. Set up once, on this device, nothing uploaded. Eight photos, eight stations. A new station opens: Islands. The Line: eight of eighteen. The card: My Hong Kong, 08 of 18. The same map by night. The full film opens with the app's own first-launch opening, Hong Kong in tiles taking a photograph's colours, and ends on its KOWLO tile wall: Hong Kong, in your colours." width="100%"></a></p>
 
-<p align="center"><sub>In development. Animated product screenshots from release 147 (23 Oct 2026); the district photos are generated campaign images, not a person's photos, and the map is drawn from the app's own land data. The loop shows the last 15 seconds; the MP4 has the full 36-second film.</sub><br><a href="assets/kowlo-promo-20261024.mp4">Watch the full film</a> · <a href="assets/kowlo-promo-20261024-poster.png">Still frame</a> · <a href="assets/kowlo-promo-20261024-manifest.json">Capture details</a></p>
+<p align="center"><sub>In development. Release 191 (KOWLO 2.0, 10 November 2026) run locally with nothing uploaded; the photographs are the project's eight synthetic sample photos. The loop shows the ride; the MP4 has the full 30-second film with the app's own opening.</sub><br><a href="assets/kowlo-promo-20261114.mp4">Watch the full film</a> · <a href="assets/kowlo-promo-20261114-poster.png">Still frame</a> · <a href="assets/kowlo-promo-20261114-manifest.json">Capture details</a></p>
 
 ## Your city, in your photographs
 
 A corner you noticed on the way home. A familiar street in a different light. KOWLO keeps the photograph with the place, so the city becomes more than a collection of pins—and the memory is easier to return to than a picture lost in your camera roll.
 
 <p align="center">
-  <a href="assets/photo-atlas-release144-20261023.png"><img src="assets/kowlo-figma-01-final-20261023.png" width="430" alt="Your photos. Your Hong Kong. KOWLO's original photo-atlas screen places photographs on a Hong Kong map, inside a dark brown and cream campaign card." /></a>
+  <img src="assets/kowlo-map-release191-20261114.png" width="250" alt="KOWLO's Map home in release 191: 08 of 18 stations open over Hong Kong in tiles, a new station card for Islands, and the four tabs Map, Line, Cards and You." />
+  <img src="assets/kowlo-line-release191-20261114.png" width="250" alt="KOWLO's Line: 8 of 18 stations, from Central and Western, Wan Chai and Southern, each opened by a photograph, with the stations not yet visited in grey." />
+  <img src="assets/kowlo-cards-release191-20261114.png" width="250" alt="KOWLO's Cards: the transit card My Hong Kong, 08 of 18, with the Central and Western station, and the collection of stations, landmarks and hidden places." />
 </p>
 
-<p align="center"><sub>Actual development interface · release-144 audit, 23 October 2026 · Sample photographs and places. Select a campaign card to see its original screen.</sub></p>
+<p align="center"><sub>Actual release-191 screens, 14 November 2026, after adding the project's eight synthetic sample photographs. Places, counts and dates are demonstration data.</sub></p>
 
 ### Put the photograph back in its place.
 
@@ -26,14 +28,14 @@ See your photographs across the map, then move between the atlas, your line thro
 
 ### See your Hong Kong take shape.
 
-Open **Your Hong Kong** to bring your photographs, districts and place list into one view. Then turn to **Cards**, where illustrated stations, landmarks, hidden places and islands give the city's details a collection of their own.
+KOWLO 2.0 opens on the **Map**: the count of stations open, the newest station, and your line running along the foot of the map. **Line** lists all eighteen stations, **Cards** carries your line on one transit card beside a collection of stations, landmarks, hidden places and islands, and **You** keeps your photos, notes and choices.
 
 <p align="center">
-  <a href="assets/your-hong-kong-release144-20261023.png"><img src="assets/kowlo-figma-02-final-20261023.png" width="300" alt="Your places. All in view. The original Your Hong Kong screen brings together a photograph and district summary with a place list." /></a>
-  <a href="assets/collection-release144-20261023.png"><img src="assets/kowlo-figma-03-final-20261023.png" width="300" alt="Keep a little of every place. KOWLO's original Cards screen shows an illustrated Yau Tsim Mong card and four collection categories." /></a>
+  <img src="assets/kowlo-setup-release191-20261114.png" width="250" alt="KOWLO's one-time setup: Set up once. On this device, nothing uploaded. Photos: light your exits." />
+  <img src="assets/kowlo-map-night-release191-20261114.png" width="250" alt="KOWLO's Map at night: the harbour-navy city in tiles, 08 of 18 stations open, the new station Islands." />
 </p>
 
-<p align="center"><sub>The photographs, dates, totals and collection progress above are demonstration data.</sub></p>
+<p align="center"><sub>Setup runs once, on the phone. The same map by night (the app's Look set to Dark).</sub></p>
 
 ### Leave room for the way back.
 
@@ -55,12 +57,12 @@ That purpose shapes the details: bilingual place names, district structure, day 
 
 ## Development status
 
-**In development.** The atlas, personal summary and collection shown here come from the release-144 audit on **23 October 2026**. A public download will be linked here when available.
+**In development.** The film and screens shown here come from **release 191** (KOWLO 2.0, 10 November 2026), run locally on 14 November 2026. A public download will be linked here when available.
 
 <details>
 <summary><strong>Capture details, engineering notes and earlier versions</strong></summary>
 
-The three campaign cards use original, unretouched application interfaces. Supporting artwork and lettering sit outside the screens. Their photographs, dates and totals belong to a demonstration fixture, not a personal travel record or customer statistics. The Walk images are separately labelled approved designs.
+The release-191 screens are unretouched captures at an exact half-size reduction. Their photographs are the project's synthetic sample photos, and the places, dates and totals that follow from them are demonstration data, not a personal travel record or customer statistics. The Walk images are separately labelled approved designs.
 
 The implementation combines a modular web interface, IndexedDB-backed local data, offline behaviour and native-wrapper work. Geographic and data checks support the atlas; they do not replace navigation or physical-device testing. Implementation and personal records remain private.
 
@@ -68,6 +70,7 @@ The implementation combines a modular web interface, IndexedDB-backed local data
 
 Earlier product generations remain available for context:
 
+- [23 October release-144 photo atlas](assets/photo-atlas-release144-20261023.png), [Your Hong Kong](assets/your-hong-kong-release144-20261023.png) and [collection](assets/collection-release144-20261023.png), with their [campaign cards](assets/kowlo-figma-01-final-20261023.png)
 - [22 October illustrated island-card design](assets/card-lantau-20261022.png)
 - [September photo-atlas interface](assets/app-atlas-night.jpg)
 - [Earlier district view](assets/app-district.jpg)
